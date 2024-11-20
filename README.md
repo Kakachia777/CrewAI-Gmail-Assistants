@@ -38,7 +38,7 @@ graph TD
 
 ```bash
 # Clone the repository
-git clone https://github.com/kakachia777/ai-email-assistant.git
+git clone https://github.com/Kakachia777/CrewAI-Gmail-Assistants.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ cp .env.example .env
 1. Configure your `.env` file:
 ```env
 OPENAI_API_KEY=your_key_here
-OPENAI_MODEL_NAME=gpt-4 # or gpt-3.5-turbo
+OPENAI_MODEL_NAME=gpt-4o # or gpt-4o-mini
 GMAIL_CREDENTIALS_PATH=path/to/credentials.json
 ```
 
@@ -189,4 +189,4 @@ assistant.on_response_generated(callback)
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-<p align="center">Made with ❤️ by Your Team Name</p>
+<p align="center">Made with ❤️ by Beka Kakachia</p>
